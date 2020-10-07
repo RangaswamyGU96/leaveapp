@@ -1,0 +1,23 @@
+download folder
+npm install
+ng serve --open / npm start
+
+install json server  -> npm install -g json-server
+create local folder-> create db.json file , with your json data
+refernce link --> https://github.com/typicode/json-server
+db.json looks like below
+{
+  "employees": [
+    {
+      "id": 111,
+      "firstname": "Adarsha",
+      "lastname": "sharma",
+      "email": "Adasrh@gmail.com"
+    },
+    ]
+ }
+
+run json server --> json-server --watch db.json
+
+
+ 
